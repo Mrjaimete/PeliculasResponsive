@@ -1,0 +1,69 @@
+	.listapeliculas {
+    	display: inline;
+        width: 100%;     
+	}
+@media only screen and (max-width: 360px){
+   
+    
+    
+    .list-item{
+        
+        width: 100%;
+    
+    }
+    
+    
+    .poster-container img{
+        width: 100%;
+    }
+    
+    
+    .detail-container p{
+        overflow: hidden;   
+    }
+    
+}
+
+@media only screen and (min-width: 361px){
+   
+	
+    
+    
+    .list-item{
+        float: left;
+        width:50%;
+               
+    }
+    
+    
+    .poster-container img{
+        width:100%;
+    }
+    
+    
+    .detail-container{
+        overflow: hidden;
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 500px){
+   
+    
+    
+    .list-item{
+        float: left;
+        width:33%;
+               
+    }
+    
+    
+    .poster-container img{
+        width:100%;
+    }
+    
+    
+    .detail-container{
+        overflow: hidden;
+        width: 50%;
+    }
+}
